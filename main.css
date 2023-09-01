@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Belanosima:wght@700&family=Black+Ops+One&family=Handjet:wght@600&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Belanosima:wght@700&family=Black+Ops+One&family=Handjet:wght@600&family=Passion+One:wght@400;700;900&family=Sedgwick+Ave+Display&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family:  sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+}
+
+.overlay{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: lightblue;
+  mix-blend-mode: overlay;
+  z-index: -1;
+} 
+
+.backvid{
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+
+div{
+  padding: 20px;
+  position: relative;
+  z-index: 3;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.discord{
+  width: 500px;
+  height: 420px;
+  background-image: linear-gradient(180deg,#182e75, #0f1113);
+}
+
+.Tiktok{
+  width: 500px;
+  height: 420px;
+  background-image: linear-gradient(0deg,#380012, #000000);
+}
+
+.Youtube{
+  width: 500px;
+  height: 420px;
+  background-image: linear-gradient(180deg,#8b0000, #500068);
+}
+
+.allelements{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.allelements div{
+margin: 20px;
+}
+
+.discordlogo{
+  width: 125PX;
+  display: block;
+  margin: auto;
+}
+
+.tiktoklogo{
+  width: 125PX;
+  display: block;
+  margin: auto;
+}
+
+.youtubelogo{
+  width: 125px;
+  padding: 0;
+  display: block;
+  margin: auto;
+}
+
+button{
+  padding: 15px 50px;
+  color: black;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
+  transition: 0.2s;
+  font-weight: 1000;
+}
+
+.tikbut{
+  margin-top: 80px;
+  background-color: #ff0050;
+  color: #00f2ea;
+}
+
+.tikbut:hover{
+  background-color: #00f2ea;
+  color: #ff0050;
+}
+
+.disbut{
+  background-color: 	#7289da;
+  margin-top: 50px;
+  color: white;
+}
+
+.disbut:hover{
+  background-color: white;
+  color: #7289da;
+}
+
+.subut{
+  margin-top: 50px;
+  color: #6e0d25;
+  background-color: #40e0d0;
+}
+
+.subut:hover{
+  color: #40e0d0;
+  background-color: #ff0050;
+}
+
+h2{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 1000;
+  text-align: center;
+}
+
+h3{
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 1000;
+  text-align: center;
+}
+
+
+@media (max-width:2560px){
+  .discord{
+    width: 700px;
+    height: 690px;
+  }
+  h2{
+    font-size: 4em;
+  }
+  
+  h3{
+    font-size: 2.2em;
+  }
+  .Youtube{
+    width: 700px;
+    height: 690px;
+  }
+  .Tiktok{
+    width: 700px;
+    height: 690px;
+  }
+  button{
+    padding: 35px 70px;
+    border-radius: 100px;
+    font-size: 1.4em;
+  }
+  .discordlogo{
+    width: 180px;
+  }
+  .tiktoklogo{
+    width: 180px;
+  }
+  .youtubelogo{
+    width: 150px;
+  }
+  }
+  @media (max-width:2558px){
+    .discord{
+      width: 400px;
+      height: 430px;
+    }
+    h2{
+      font-size: 2em;
+    }
+    
+    h3{
+      font-size: 1em;
+    }
+    .Youtube{
+      width: 400px;
+      height: 430px;
+    }
+    .Tiktok{
+      width: 400px;
+      height: 430px;
+    }
+    button{
+      padding: 15px 50px;
+      border-radius: 100px;
+      font-size: 1em;
+    }
+    .discordlogo{
+      width: 150px;
+    }
+    .tiktoklogo{
+      width: 150px;
+    }
+    .youtubelogo{
+      width: 125px;
+    }
+  }
+ 
+  @media (max-width:1359px){
+  
+    .discord{
+      width: 360px;
+      height: 345px;
+    }
+  
+    h2{
+      font-size: 1.5em;
+    }
+    
+    h3{
+      font-size: 1em;
+    }
+  
+    .Youtube{
+      width: 360px;
+      height: 345px;
+    }
+  
+    .Tiktok{
+      width: 360px;
+      height: 345px;
+    }
+  
+    button{
+      padding: 10px 45px;
+      border-radius: 100px;
+      font-size: 1em;
+    }
+  
+    .discordlogo{
+      width: 100px;
+    }
+  
+    .tiktoklogo{
+      width: 100px;
+    }
+  
+    .youtubelogo{
+      width: 100px;
+    }
+    .subut{
+      margin-top: 15px;
+    }
+    .disbut{
+      margin-top: 15px;
+    }
+    .tikbut{
+      margin-top: 40px;
+    }
+  }
+  
+  @media (max-width:839px){
+  
+    .allelements .Tiktok{
+        margin-top: 0px;
+    }
+    .allelements .Youtube{
+      margin-top: 0px;
+    }
+    .allelements .discord{
+    margin-top: 0px;
+    }
+      .discord{
+        width: 300px;
+        height: 300px;
+      }
+    
+      h2{
+        font-size: 1em;
+      }
+      
+      h3{
+        font-size: 0.8em;
+      }
+    
+      .Youtube{
+        width: 300px;
+        height: 300px;
+      }
+    
+      .Tiktok{
+        width: 300px;
+        height: 300px;
+      }
+    
+      button{
+        padding: 10px 25px;
+        border-radius: 100px;
+        font-size: 1em;
+      }
+    
+      .discordlogo{
+        width: 80px;
+      }
+    
+      .tiktoklogo{
+        width: 80px;
+      }
+    
+      .youtubelogo{
+        width: 100px;
+      }
+      .subut{
+        margin-top: 15px;
+      }
+      .disbut{
+        margin-top: 15px;
+      }
+      .tikbut{
+        margin-top: 40px;
+      }
+    }
+
+    @media (max-width:719px){
+  
+      .discord{
+        width: 310px;
+        height: 250px;
+      }
+    
+      h2{
+        font-size: 1em;
+      }
+      
+      h3{
+        font-size: 0.8em;
+      }
+    
+      .Youtube{
+        width: 310px;
+        height: 250px;
+      }
+    
+      .Tiktok{
+        width: 310px;
+        height: 230px;
+      }
+      .allelements .Tiktok{
+          margin-top: 10px;
+      }
+      .allelements .Youtube{
+        margin-top: 10px;
+    }
+    .allelements .discord{
+      margin-top: -35px;
+    }
+      button{
+        padding: 10px 25px;
+        border-radius: 100px;
+        font-size: 0.7em;
+      }
+    
+      .discordlogo{
+        width: 80px;
+      }
+    
+      .tiktoklogo{
+        width: 80px;
+      }
+    
+      .youtubelogo{
+        width: 100px;
+      }
+      .subut{
+        margin-top: 5px;
+      }
+      .disbut{
+        margin-top: 5px;
+      }
+      .tikbut{
+        margin-top: 5px;
+      }
+    }
+    
+@media (max-width:354px){
+
+  .discord{
+    width: 320px;
+    height: 250px;
+  }
+
+  h2{
+    font-size: 0.8em;
+  }
+  
+  h3{
+    font-size: 0.6em;
+  }
+
+  .Youtube{
+    width: 310px;
+    height: 250px;
+  }
+
+  .Tiktok{
+    width: 310px;
+    height: 230px;
+  }
+  .allelements .Tiktok{
+      margin-top: 10px;
+  }
+  .allelements .Youtube{
+    margin-top: 10px;
+}
+.allelements .discord{
+  margin-top: -30px;
+}
+  button{
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-size: 0.6em;
+  }
+
+  .discordlogo{
+    width: 80px;
+  }
+
+  .tiktoklogo{
+    width: 80px;
+  }
+
+  .youtubelogo{
+    width: 100px;
+  }
+  .subut{
+    margin-top: 15px;
+  }
+  .disbut{
+    margin-top: 15px;
+  }
+  .tikbut{
+    margin-top: 15px;
+  }
+}
