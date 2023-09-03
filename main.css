@@ -534,7 +534,7 @@ h3{
   margin-top: 0px;
 }
 .allelements .discord{
-  margin-top: -60px;
+  margin-top: 0px;
 }
 }
 @media (max-height: 800px){
@@ -553,7 +553,7 @@ h3{
   margin-top: -10px;
 }
 .allelements .discord{
-  margin-top: -70px;
+  margin-top: -60px;
 }
 .discordlogo{
   width: 60px;
@@ -609,7 +609,7 @@ button{
   margin-top: -10px;
 }
 .allelements .discord{
-margin-top: -70px;
+margin-top: -60px;
 }
 .discord{
   width: 310px;
@@ -657,7 +657,7 @@ margin-top: -70px;
     margin-top: -10px;
 }
 .allelements .discord{
-  margin-top: -70px;
+  margin-top: -60px;
 }
 .discordlogo{
   width: 60px;
