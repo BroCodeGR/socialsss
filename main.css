@@ -534,16 +534,13 @@ h3{
   margin-top: 0px;
 }
 .allelements .discord{
-  margin-top: 0px;
+  margin-top: -70px;
 }
 }
 @media (max-height: 800px){
 .allelements .discord{
-  margin: -60px;
-  
+  margin: 0px;
 }
-  .allelements .discord{
-    
 }
 @media (max-height: 740px){
   .allelements .Tiktok{
@@ -553,7 +550,7 @@ h3{
   margin-top: -10px;
 }
 .allelements .discord{
-  margin-top: -60px;
+  margin-top: -70px;
 }
 .discordlogo{
   width: 60px;
@@ -609,7 +606,7 @@ button{
   margin-top: -10px;
 }
 .allelements .discord{
-margin-top: -60px;
+margin-top: -70px;
 }
 .discord{
   width: 310px;
@@ -657,7 +654,7 @@ margin-top: -60px;
     margin-top: -10px;
 }
 .allelements .discord{
-  margin-top: -60px;
+  margin-top: -70px;
 }
 .discordlogo{
   width: 60px;
