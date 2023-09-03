@@ -534,13 +534,16 @@ h3{
   margin-top: 0px;
 }
 .allelements .discord{
-  margin-top: -70px;
+  margin-top: -60px;
 }
 }
 @media (max-height: 800px){
 .allelements .discord{
-  margin: 0px;
+  margin: -60px;
+  
 }
+  .allelements .discord{
+    
 }
 @media (max-height: 740px){
   .allelements .Tiktok{
